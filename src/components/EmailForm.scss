@@ -1,0 +1,34 @@
+.__form{
+    display:flex;
+    align-items: center;
+    
+    Input{
+        padding: .6rem .5rem;
+        font-family: 'bold';
+        font-weight: 900;
+        font-size: 0.825rem;
+        outline: none;
+        border:.15rem solid #000;
+        border-radius: .25rem;
+    }
+        label{
+            display:none;
+        }
+    .submit-btn{
+        background: $black;
+        outline: none;
+        border: none;
+        padding: .75rem 1rem;
+        border-radius: .25rem;
+        margin:0 .25rem;
+        color: $white;
+        cursor: pointer;
+        font-family: 'bold';
+        font-weight: 900;
+        font-size: 0.825rem;
+        &:hover{
+            transition: all .25s ease-in-out;
+            transform: scale(1.025);
+        }
+    }
+}
