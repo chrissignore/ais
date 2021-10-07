@@ -28,7 +28,7 @@ const HomePage = () => (
             {' ALL IN SUMMIT '}
           </h1>
           <h2>
-            {'MIAMI - 2022'}
+            {'MIAMI 🌴 2022'}
           </h2>
         </div>
       </section>
@@ -41,7 +41,7 @@ const HomePage = () => (
             </h1>
           </div>
             <Link to="/" className="__buy-btn">
-                Buy 
+                Buy
             </Link>
         </div>
       </section>

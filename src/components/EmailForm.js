@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form";
 const Input = ({ label, register, required }) => (
   <>
     <label>{label}</label>
-    <input placeholder="What's your email?" {...register(label, { required })} />
+    <input placeholder="What's your email? 👋🏼" {...register(label, { required })} />
   </>
 );
 
