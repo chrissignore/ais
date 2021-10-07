@@ -22,22 +22,22 @@
       display: flex;
       cursor: pointer;
       .category {
-        margin: .5rem 0.65rem 0 .65rem;
+        margin: .5rem 0.75rem 0 .75rem;
         display: flex;
         flex-direction: column;
         align-items: center;
         img {
-          margin-bottom: 0.35rem;
-          width: 2.25rem;
+          margin-bottom: .25rem;
+          width: 2.5rem;
           height: auto;
-
           &:hover {
             border-radius: 100rem;
-            box-shadow: 0 0 7px -2px $burple;
+            box-shadow: 0 0 5px 2px $miamiorange;
           }
         }
         h1{
-          font-size: 0.6rem;
+          color:$black;
+          font-size: 0.825rem;
         }
       }
     }
