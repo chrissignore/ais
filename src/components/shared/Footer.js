@@ -9,7 +9,7 @@ const Footer = () => (
             <img src="./img/icons/footer/home__logo.png" alt="" />
             <h1>Home</h1>
           </Link>
-          <Link to="/terms" className="category">
+          {/* <Link to="/terms" className="category">
           <img src="./img/icons/footer/ticket__logo.png" alt="" />
             <h1>Buy Ticket</h1>
           </Link>
@@ -21,7 +21,7 @@ const Footer = () => (
           <img src="./img/icons/footer/contact__logo.png" alt="" />
             <h1>Contact</h1>
           </Link>
-        </div>
+        </div> */}
       </div>
     </footer>
   </div>
