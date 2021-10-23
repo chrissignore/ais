@@ -20,8 +20,8 @@ const Footer = () => (
           <Link to="/contact" className="category">
           <img src="./img/icons/footer/contact__logo.png" alt="" />
             <h1>Contact</h1>
-          </Link>
-        </div> */}
+          </Link> */}
+        </div>
       </div>
     </footer>
   </div>
